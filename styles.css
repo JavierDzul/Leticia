@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+#general-info, #events {
+    margin-bottom: 2rem;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.card-title {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.carousel-item img {
+    height: 60vh;
+    object-fit: cover;
+}
+
+
+
+.bg-dark {
+    background-color: #154175 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #8E1D45;
+    border-color: #8E1D45;
+}
+
+.btn-primary:hover {
+    background-color: #721637;
+    border-color: #721637;
+}
