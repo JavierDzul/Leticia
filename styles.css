@@ -44,12 +44,48 @@ footer {
 
 
 .bg-dark {
-    background-color: #154175 !important;
+    background-color: #ececec !important;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: #ffffff;
+.bg-gray {
+    background-color: #d1d1d1 !important;
 }
+
+.bg-no-dark {
+    background-color: #0a2a50 !important;
+}
+
+.nav-link {
+    font-family: monospace;
+    color: #fffefe;
+    font-size: 14px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav  .nav-link:hover {
+    color: #f7e1a5; /* Gold color for hover effect */
+    background-color: #010f1f; /* Darker background on hover */
+    border-radius: 5px;
+
+}
+
+.navbar-dark .navbar-nav  .nav-link i {
+    
+    color: #fffefe;
+    font-size: 14px;
+    transition: color 0.3s ease, font-size 0.3s ease;
+
+}
+
+.navbar-dark .navbar-nav  .nav-link:hover i {
+    
+    color: #f7e1a5;
+    font-size: 20px;
+    
+
+}
+
+
 
 .btn-primary {
     background-color: #8E1D45;
@@ -60,3 +96,25 @@ footer {
     background-color: #721637;
     border-color: #721637;
 }
+
+.nav-bar-text{
+    font-family: monospace;
+    color: #504f4f;
+    font-size: 17px;
+    margin: 10px;
+}
+
+
+.mini-bar{
+    color: #504f4f;
+    font-size: 13px;
+    margin: -2px;
+
+    padding: 0px;
+    text-align: center;
+
+    font-family: monospace;
+    font-weight: 500;
+}
+
+
